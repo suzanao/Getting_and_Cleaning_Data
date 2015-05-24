@@ -1,4 +1,5 @@
 Tidy Data Set 
+------------------------------------------------------------------------------------------------
 
 Tidy data set consists of average of each mean and standard deviaition feature for each subject and each activity. 
 For description of features see features_info.txt file in folder UCI HAR Dataset in repository.
@@ -6,36 +7,35 @@ For description of features see features_info.txt file in folder UCI HAR Dataset
 The final output consists of six rows for each participant, one for each activity.
 
 
-Variable Label                 Variiable Type      Description
+  Variable Label                 Variiable Type      Description
 ------------------------------------------------------------------------------------------------
-subject                        integer     	   Number representing the subject/participant
-activity.label                 factor      	   Factor representing one of the six different activities performed by the subject
-avg.tbodyacc.mean.x            numeric     
-avg.tbodyacc.mean.y            numeric     
-avg.tbodyacc.mean.z            numeric     
-avg.tbodyacc.std.x             numeric     
-avg.tbodyacc.std.y             numeric     
-avg.tbodyacc.std.z             numeric     
-avg.tgravityacc.mean.x         numeric     
-avg.tgravityacc.mean.y         numeric     
-avg.tgravityacc.mean.z         numeric     
-avg.tgravityacc.std.x          numeric     
-avg.tgravityacc.std.y          numeric     
-avg.tgravityacc.std.z          numeric     
-avg.tbodyaccjerk.mean.x        numeric     
-avg.tbodyaccjerk.mean.y        numeric     
-avg.tbodyaccjerk.mean.z        numeric     
-avg.tbodyaccjerk.std.x         numeric     
-avg.tbodyaccjerk.std.y         numeric     
-avg.tbodyaccjerk.std.z         numeric     
-avg.tbodygyro.mean.x           numeric     
-avg.tbodygyro.mean.y           numeric     
-avg.tbodygyro.mean.z           numeric     
-avg.tbodygyro.std.x            numeric     
-avg.tbodygyro.std.y            numeric     
-avg.tbodygyro.std.z            numeric     
-avg.tbodygyrojerk.mean.x       numeric     
-avg.tbodygyrojerk.mean.y       numeric     
+# subject                        integer     	   Number representing the subject/participant
+# activity.label                 factor      	   Factor representing one of the six different activities performed by the subject
+# avg.tbodyacc.mean.x            numeric     
+# avg.tbodyacc.mean.y            numeric     
+# avg.tbodyacc.mean.z            numeric     
+# avg.tbodyacc.std.x             numeric     
+# avg.tbodyacc.std.y             numeric     
+# avg.tbodyacc.std.z             numeric     
+# avg.tgravityacc.mean.x         numeric     
+# avg.tgravityacc.mean.y         numeric     
+# avg.tgravityacc.mean.z         numeric     
+# avg.tgravityacc.std.x          numeric     
+# avg.tgravityacc.std.y          numeric     
+# avg.tgravityacc.std.z          numeric     
+# avg.tbodyaccjerk.mean.x        numeric     
+# avg.tbodyaccjerk.mean.y        numeric     
+# avg.tbodyaccjerk.mean.z        numeric     
+# avg.tbodyaccjerk.std.x         numeric     
+# avg.tbodyaccjerk.std.y         numeric     
+# avg.tbodyaccjerk.std.z         numeric     
+# avg.tbodygyro.mean.y           numeric     
+# avg.tbodygyro.mean.z           numeric     
+# avg.tbodygyro.std.x            numeric     
+# avg.tbodygyro.std.y            numeric     
+# avg.tbodygyro.std.z            numeric     
+# avg.tbodygyrojerk.mean.x       numeric     
+# avg.tbodygyrojerk.mean.y       numeric     
 avg.tbodygyrojerk.mean.z       numeric     
 avg.tbodygyrojerk.std.x        numeric     
 avg.tbodygyrojerk.std.y        numeric     
