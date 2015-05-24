@@ -10,7 +10,9 @@ The final output consists of six rows for each participant, one for each activit
 #Variable (Label/Type/Description)
 ------------------------------------------------------------------------------------------------
 subject (integer) - Number representing the subject/participant
+
 activity (factor) - Factor representing one of the six different activities performed by the subject
+
 avg.tbodyacc.mean.x (numeric)     
 avg.tbodyacc.mean.y (numeric)     
 avg.tbodyacc.mean.z (numeric)     
