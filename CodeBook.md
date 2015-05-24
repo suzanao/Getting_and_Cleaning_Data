@@ -1,7 +1,7 @@
 #Tidy Data Set 
 ------------------------------------------------------------------------------------------------
 
-Tidy data set consists of average of each mean and standard deviation feature for each subject and each activity. 
+Tidy data set tidyDataAvg.txt consists of average of each mean and standard deviation feature for each subject and each activity. 
 For description of features see features_info.txt file in folder UCI HAR Dataset in repository.
 (Note: in this .txt file there is no avg extenssion because this prefix is written to emphasize that average of feature was calculated.)
 The final output consists of six rows for each participant, one for each activity.
